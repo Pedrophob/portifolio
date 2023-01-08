@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family:'Poppins', sans-serif;
+    background:linear-gradient(90deg ,rgb(60, 60, 245) ,rgb(236, 191, 108));
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    width: 30%;
+    height: 80%;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, .212);
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin:1em 0 2em 0;
+}
+.title{
+    font-size: 18px;
+    font-weight: 500;
+    margin-right:10em;
+}
+.container__button{
+    display: flex;
+    align-items: center;
+}
+.container__button button{
+    background:linear-gradient(90deg ,rgb(60, 60, 245) ,rgb(236, 191, 108));
+    border: none;
+    padding: 0.6em 1em;
+    border-radius: 10px;
+    cursor:pointer;
+}
+.container__button button:hover{
+    background: rgb(75, 75, 233);
+}
+.container__button a{
+    color:#fff;
+    text-decoration: none;
+}
+.input__group{
+    display: flex;
+    flex-direction: column;
+}
+.input__box{
+    display: flex;
+    flex-direction: column;
+    margin:0.5em 0;
+}
+.input__box input{
+    padding: 0.5em;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, .212);
+    border: none;
+    border-radius:10px
+}
+.input__box input:hover{
+    background-color: #cececece;
+}
+.container__continue button{
+    align-items: center;
+    background:linear-gradient(90deg ,rgb(60, 60, 245) ,rgb(236, 191, 108));
+    border-radius: 50px;
+    width: 100%;
+    padding: 0.5em;
+    border:none;
+    cursor: pointer;
+}
+.container__continue button:hover{
+    background: rgb(75, 75, 233);
+}
+.container__continue a{
+    color:#fff;
+    text-decoration:none;
+    font-size:15px
+}
+.gender__group{
+    display:flex;
+    font-size: 14px;
+    flex-direction:column;
+    margin-bottom: 1em;
+}
+.gender__title{
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 0.3em;
+}
