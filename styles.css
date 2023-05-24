@@ -125,7 +125,6 @@ body{
     color: #fff;
     margin-top: 20em;
     margin-bottom:15em;
-    visibility: hidden;
 }
 .container__titulos{
     display: flex;
@@ -154,8 +153,7 @@ body{
 
 .conhecimentos{
     color: #fff;
-    margin-top:30em;
-    visibility: hidden;
+    margin-top:20em;
 }
 .titulo__conhecimentos{
     font-size: 2.5rem;
@@ -163,52 +161,60 @@ body{
 }
 .card__conhecimentos{
     display: flex;
-    flex-direction:column;
-    margin-left: 10vh;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
     margin-top:2em;
 }
 .card__conhecimentos__item{
     margin: .5em;
     display: flex;
+    flex-direction: column;
     align-items: center;
 }
-.card__conhecimentos__item-1{
-    margin-left:calc(-3vh);
-}
-.card__conhecimentos__item-3{
-    margin-left: calc(-13vh);
+.imagem__card__conhecimentos{
+    width: 150px;
 }
 .imagem-1{
-    width:250px;
+    width: 210px;
 }
-.imagem-2{
-    width:180px;
-}
+
 .imagem-3{
-    width:400px;
+    width: 339px;
+    margin-top: calc(0em);
+    margin-bottom: calc(-0.9em);
+    margin-left: calc(-3em);
+    margin-right: calc(-2em);
 }
-.texto__card__conhecimentos{
-    margin-right: 20vh;
-    font-size: 1.5em;
-    text-align: justify;
+
+.imagem-4{
+    width: 180px;
+    margin-top: calc(2em);
+    margin-left: calc(-2em);
+    margin-right: calc(1em);
 }
-.texto__card__conhecimentos-3{
-    margin-left: calc(-4vh);
+.imagem-5{
+    width: 170px;
+    margin-top: calc(2em);
 }
-.texto__card__conhecimentos-2{
-    margin-left: 8vh;
+
+.text__image__conhecimentos{
+    font-size: 1.2em;
+    margin: 1em;
 }
-.texto__card__conhecimentos-1{
-    margin-left: 4.5vh;
+
+.text__image-1{
+    margin-top: calc(1.7em);
 }
-.texto__card__conhecimentos i{
-    color:#1E92F1
+
+.text__image-2{
+    margin-left: calc(-1.5em);
 }
-@media screen and (min-width:1620px){
-    .card__conhecimentos__item-3{
-        margin-left: calc(-11vh);
-    }
+
+.text__image-3{
+    margin-top: calc(2em);
 }
+
 
 /* projetos */
 
@@ -299,4 +305,5 @@ body{
 .imagem__contato{
     width: 50px;
 }
+
 
